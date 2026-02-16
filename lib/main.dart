@@ -1,11 +1,12 @@
 import "package:easy_localization/easy_localization.dart";
 import "package:firebase_core/firebase_core.dart";
 import "package:flutter/material.dart";
+import "package:flutter_bloc_ca/firebase_option.dart";
 import "package:hive_flutter/hive_flutter.dart";
 import "package:hydrated_bloc/hydrated_bloc.dart";
 import "package:path_provider/path_provider.dart";
 
-import "firebase_options.dart";
+ 
 import "src/app.dart";
 import "src/configs/adapter/adapter_conf.dart";
 import "src/configs/injector/injector_conf.dart";
